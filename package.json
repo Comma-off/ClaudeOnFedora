@@ -1,0 +1,17 @@
+{
+  "name": "claudeonfedora",
+  "productName": "ClaudeOnFedora",
+  "version": "0.1.0",
+  "description": "Unofficial native desktop wrapper for claude.ai",
+  "license": "MIT",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . claudeonfedora --platform=linux --arch=x64 --out=dist --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}

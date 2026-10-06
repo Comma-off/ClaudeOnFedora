@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Claude
+Comment=Unofficial native desktop wrapper for claude.ai
+Exec=claudeonfedora %U
+Icon=claudeonfedora
+Terminal=false
+Categories=Network;Chat;
+StartupWMClass=claudeonfedora
